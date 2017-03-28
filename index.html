@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Wheres Waldo?</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript" src="scripts/waldo.js"></script>
+</head>
+
+<body>
+
+	<div id="startScreen">
+		<h1>Wheres Waldo?</h1>
+		<p>
+			Click the button to start searching.<br>
+			By the way, you are timed.
+		</p>
+		<div id="go">
+			<p id="goText">START</p>
+		</div>
+		<div id="playerForm">
+			<p>Enter your name.</p>
+			<input type="text" placeholder="Player">
+			<input type="submit">
+		</div>
+	</div>
+
+	<div id="gameData">
+		<p id="rspnse"></p>
+		<p id="timer">0.00</p>
+	</div>
+
+	<img src="media/maps_future.jpg">
+
+	<div class="highlighter"></div>
+
+	<div id="endModal" style="display:none">
+		<h2>You won!</h2>
+		<p>It took you <span id="yourTime"></span> seconds to find waldo.</p>
+		<table style="border: 1px solid white">
+			<caption>Highscores</caption>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Score</th>
+				</tr>
+			</thead>
+			<tbody id="topPlayers">
+			</tbody>
+		</table>
+		<a href="index.html">PLAY AGAIN?</a>
+	</div>
+	
+</body>
+</html>

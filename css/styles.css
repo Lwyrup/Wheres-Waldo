@@ -1,0 +1,112 @@
+body{
+	background-color: red;
+	color:white;
+	margin:0px;
+	background-image: url("../media/stripes.jpg");
+}
+img{
+	display: block;
+	margin:auto;
+	height:600px;
+	width:1260px;
+}
+h1{
+	margin-top: 16%;
+	text-align: center;
+	text-shadow: 2px 2px black;
+	font-size: 60px;
+	letter-spacing: 20px;
+}
+p{
+	text-align: center;
+}
+table{
+	width:inherit;
+	margin:12px auto;
+}
+thead{
+	color:royalblue;
+}
+a{
+	color:red;
+}
+#go{
+	height: 60px;
+	width: 140px;
+	margin: 50px auto;
+	background-color: black;
+	border-radius: 10px;
+}
+#go:hover{
+	background-color: white;
+	color:black;
+}
+#goText{
+	padding: 20px;
+}
+#startScreen{
+	background-image: url(../media/stripes.jpg);
+	background-repeat: none;
+	background-size: 100%;
+	position: fixed;
+	top:0px;
+	margin:auto;
+	width:100%;
+	height:100%;
+	background-color: red;
+	z-index: 999;
+}
+#gameData{
+	background-color: white;
+	width:98%;
+	margin:1% auto;
+	border:12px groove rgb(220,220,220);
+	height: 30px;
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+}
+#rspnse{
+	margin: initial;
+	text-decoration: underline;
+	text-align: initial;
+	margin-left: 220px;
+	letter-spacing: 8px;
+}
+#endModal{
+	background: black;
+	border:1px solid white;
+	border-radius: 20px;
+    position: fixed;
+    padding: 10px 45px;
+    top: 25%;
+    left: 47%;
+    width: 200px;
+    margin-left: -100px;
+    text-align: center;
+    z-index: 999;
+}
+#timer{
+	position: absolute;
+	top: 7px;
+	right: 220px;
+	letter-spacing: 4px;
+}
+#playerForm{
+	background: black;
+	border: 2px solid white;
+	border-radius: 30px;
+	position: fixed;
+	top: 281px;
+	left: 34%;
+	padding: 109px;
+}
+.highlighter{
+	display: none;
+	border:6px solid red;
+	box-shadow: 1px 2px black;
+	border-radius: 100%;
+	position:absolute;
+	width:46px;
+	height:46px;
+}
